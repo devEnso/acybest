@@ -1,6 +1,18 @@
 import React, { Component } from 'react'
 
 export class Header extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = { show: true }
+        this.toggleMenu = this.toggleMenu.bind(this);
+    }
+
+    toggleMenu = () => {
+        const { show } = this.state;
+        this.setState({ show: !show });
+    }
+
     render() {
         return (
             <header>
@@ -21,7 +33,7 @@ export class Header extends Component {
                         </div>
 
                         <div className="col text-right pr-0">
-                            <div className="hamburger-menu">
+                            <div className={this.state.show ? "hamburger-menu" : "hamburger-menu show-menu"} onClick={this.toggleMenu}>
                                 <div className="btn btn-hamburger border-none">
                                     <button className="navbar-toggler mobile-toggle" type="button" id="open-button" data-toggle="collapse" data-target=".navbar-collapse">
                                         <span></span>
