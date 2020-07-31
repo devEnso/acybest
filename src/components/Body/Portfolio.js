@@ -31,7 +31,7 @@ export class Portfolio extends Component {
                                         <li class="grid-item advertising design fadeInUp" style={{ position: "absolute;", left: "0%;", top: "0px;", visibility: "visible", animationName: "fadeInUp;" }}>
                                             <a href="single-project-page-01.html">
                                                 <figure>
-                                                    <div class="portfolio-img"><img src={"../images/portfolio-image8.jpg"} alt="" data-no-retina="" /></div>
+                                                    <div class="portfolio-img"><img src="/images/portfolio-image8.jpg" alt="" data-no-retina="" /></div>
                                                     <figcaption>
                                                         <div class="portfolio-hover-main">
                                                             <div class="portfolio-hover-box align-middle">
@@ -48,7 +48,7 @@ export class Portfolio extends Component {
                                         <li class="grid-item fadeInUp web branding photography" data-wow-delay="0.2s" style={{ position: "absolute;", left: "25%;", top: "0px;", visibility: "visible;", animationDelay: "0.2s;", animationName: "fadeInUp;" }}>
                                             <a href="single-project-page-02.html">
                                                 <figure>
-                                                    <div class="portfolio-img"><img src="images/portfolio-image9.jpg" alt="" data-no-retina="" /></div>
+                                                    <div class="portfolio-img"><img src="/images/portfolio-image9.jpg" alt="" data-no-retina="" /></div>
                                                     <figcaption>
                                                         <div class="portfolio-hover-main">
                                                             <div class="portfolio-hover-box align-middle">
