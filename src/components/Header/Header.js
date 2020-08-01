@@ -53,17 +53,13 @@ export class Header extends Component {
                                                     <div className="col-lg-8 col-md-7 d-flex align-items-center">
                                                         <ul className="hamburger-menu-links alt-font">
                                                             <li><a href="home-classNameic-corporate.html" title="Home">Home</a></li>
-                                                            <li><a href="about-me.html" title="Pages">Pages</a></li>
-                                                            <li><a href="portfolio-full-width-grid-overlay.html" title="Portfolio">Portfolio</a></li>
-                                                            <li><a href="blog-standard-full-width.html" title="Blog">Blog</a></li>
-                                                            <li><a href="accordions.html" title="Contact">Elements</a></li>
-                                                            <li><a href="transparent-header.html" title="Shortcode">Features</a></li>
+                                                            <li><a href="about-me.html" title="Pages">Who is ACY?</a></li>
                                                         </ul>
                                                     </div>
                                                     <div className="col-lg-4 col-md-5 d-flex align-items-center social-style-3">
                                                         <div className="width-100">
-                                                            <span className="text-extra-large text-deep-pink alt-font d-block margin-15px-bottom">London Based Creative Studio</span>
-                                                            <span className="text-medium alt-font d-block font-weight-300 margin-15px-bottom line-height-30">301 The Greenhouse,<br />Custard Factory, London, E2 8DY.<br />Call - +44 (0) 123 456 7890<br />Email -
+                                                            <span className="text-extra-large text-deep-pink alt-font d-block margin-15px-bottom">Ahmet Can Yılmaz - Designer</span>
+                                                            <span className="text-medium alt-font d-block font-weight-300 margin-15px-bottom line-height-30">Call - +44 (0) 123 456 7890<br />Email -
                                                         <a href="mailto:info@domain.com" className="text-white-2" target="_blank"> info@domain.com</a>
                                                             </span>
                                                             <div className="separator-line-horrizontal-medium-light2 bg-deep-pink margin-25px-tb sm-margin-15px-tb d-inline-block"></div>
