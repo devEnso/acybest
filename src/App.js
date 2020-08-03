@@ -1,22 +1,26 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 //header
 import Header from './components/Header/Header';
-import Header2 from './components/Header/Header2';
-import Banner from './components/Header/Banner';
 
 //body
-import Portfolio from './components/Body/Portfolio';
 import Home from './components/Body/Home';
+import About from './components/Body/About';
+import Portfolio from './components/Body/AllPortfolio';
 
 
 function App() {
   return (
     <div className="App">
-      <Header2 />
-      <Home />
-      {/* <Banner />
-      <Portfolio /> */}
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path="/hakkımda" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
+      </Router>
     </div>
   );
 }

@@ -12,27 +12,20 @@ export class Home extends Component {
                         <div className="content-left-holder">
                             <div className="welcome-content">
                                 <img className="welcome-image" src="images/background.png" alt="" />
-                                <h1 className="site-logo">
+                                <h1 className="acy-logo">
                                     <a href="index.html">
-                                        <img src="images/logo@2x.png" alt="Ocularus" />
+                                        <img src="images/acylogo2x.png" alt="Ocularus" />
                                     </a>
                                 </h1>
                                 <div className="site-description">
-                                    Hello,<br />
-                                    my name is Jason Williams and <br />
-                                    I am photographer and senior
-                                    graphic designer from New York.
+                                    merhaba,<br />
+                                    benim adım Ahmet Can Yılmaz ve <br />
+                                    Istanbul'da yaşayan bir Grafik Tasarımcıyım.
                                     <br />
                                     <br />
-                                    <a href="https://goo.gl/Iuqj8E" target="_blank">
-                                        40.758896° N <br />
-                                         -73.985130° W
-                                     </a>
-                                    <br />
-                                    <br />
-                                    <p>+012 34 567 8912</p>
+                                    <p>+90 545 914 6622</p>
                                     <p>
-                                        <a href="mailto:hello@yoursite.com">hello@yoursite.com</a>
+                                        <a href="mailto:ahmetcy17@gmail.com">ahmetcy17@gmail.com</a>
                                     </p>
                                 </div>
                             </div>

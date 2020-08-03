@@ -1,3 +1,16 @@
-.overflowhide::-webkit-scrollbar{
+.overflowhide::-webkit-scrollbar {
     display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .acy-logo img {
+        margin: 0 auto;
+    }
+}
+
+.acy-logo img {
+    width: 125px;
+    height: auto;
+    margin-bottom: 51px;
 }
