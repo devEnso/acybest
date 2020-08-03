@@ -2,6 +2,16 @@ import React, { Component } from 'react'
 import DragScrollProvider from 'drag-scroll-provider'
 import './styles.css'
 
+import Dort from '../../assets/myworks/se-04.png';
+import Sekiz from '../../assets/myworks/se-08.png';
+import OnBir from '../../assets/myworks/se-11.png';
+import OnIki from '../../assets/myworks/se-12.png';
+import OnUc from '../../assets/myworks/se-13.png';
+import Uc from '../../assets/myworks/se-03.png';
+import Yedi from '../../assets/myworks/se-07.png';
+import Dokuz from '../../assets/myworks/se-09.png';
+import OnDort from '../../assets/myworks/se-14.png';
+
 export class Home extends Component {
     render() {
         return (
@@ -39,36 +49,36 @@ export class Home extends Component {
                                     <div className="flickity-viewportx" style={{ display: "contents", height: "695px" }}>
                                         <DragScrollProvider className="scroll-container">
                                             {({ onMouseDown, ref }) => (
-                                                <div className="overflowhide scrollable flickity-slider" ref={ref} onMouseDown={onMouseDown} style={{ width: "100%", overflowX: "scroll" }}>
-                                                    <div className="carousel-cell" style={{ position: "absolute", left: "0%" }}>
-                                                        <img src="images/img_01.jpg" alt="" />
+                                                <div className="acyImage overflowhide scrollable flickity-slider" ref={ref} onMouseDown={onMouseDown} style={{ width: "100%", overflowX: "scroll", display: "flex" }}>
+                                                    <div className="carousel-cell">
+                                                        <img src={OnUc} alt="" />
                                                         <p className="post-num">05</p>
-                                                        <h3 className="entry-title"><a href="single.html">Another Day at Work</a></h3>
-                                                        <p className="cat-links">Office</p>
+                                                        <h3 className="entry-title"><a href="single.html">Food Design</a></h3>
+                                                        <p className="cat-links">Packaging Design</p>
                                                     </div>
-                                                    <div className="carousel-cell" style={{ position: "absolute", left: "43.46%" }}>
-                                                        <img src="images/animation.gif" alt="" />
+                                                    <div className="carousel-cell">
+                                                        <img src={OnIki} alt="" />
                                                         <p className="post-num">04</p>
-                                                        <h3 className="entry-title"><a href="single.html">Coco Basic Gif</a></h3>
-                                                        <p className="cat-links">Animation</p>
+                                                        <h3 className="entry-title"><a href="single.html">Chocolate Design</a></h3>
+                                                        <p className="cat-links">Packaging Design</p>
                                                     </div>
-                                                    <div className="carousel-cell" style={{ position: "absolute", left: "114.57%" }}>
-                                                        <img src="images/img_03.jpg" alt="" />
+                                                    <div className="carousel-cell">
+                                                        <img src={OnBir} alt="" />
                                                         <p className="post-num">03</p>
-                                                        <h3 className="entry-title"><a href="single.html">Branding at the Best</a></h3>
-                                                        <p className="cat-links">Inspiration</p>
+                                                        <h3 className="entry-title"><a href="single.html">Coffee and Food Design</a></h3>
+                                                        <p className="cat-links">Packaging Design</p>
                                                     </div>
-                                                    <div className="carousel-cell" style={{ position: "absolute", left: "165.93%" }}>
-                                                        <img src="images/img_04.jpg" alt="" />
+                                                    <div className="carousel-cell">
+                                                        <img src={Dokuz} alt="" />
                                                         <p className="post-num">02</p>
-                                                        <h3 className="entry-title"><a href="single.html">Lets Do This</a></h3>
-                                                        <p className="cat-links">Free Art</p>
-                                                    </div>
-                                                    <div className="carousel-cell" style={{ position: "absolute", left: "208.2%" }}>
-                                                        <img src="images/img_05.jpg" alt="" />
+                                                        <h3 className="entry-title"><a href="single.html">Mobile Application</a></h3>
+                                                        <p className="cat-links">Mobile Design</p>
+                                                    </div>  
+                                                    <div className="carousel-cell">
+                                                        <img src={Sekiz} alt="" />
                                                         <p className="post-num">01</p>
-                                                        <h3 className="entry-title"><a href="single.html">Homes Magazine</a></h3>
-                                                        <p className="cat-links">Interior</p>
+                                                        <h3 className="entry-title"><a href="single.html">Web Application</a></h3>
+                                                        <p className="cat-links">Web Design</p>
                                                     </div>
                                                 </div>
                                             )}

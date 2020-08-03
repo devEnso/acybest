@@ -1,5 +1,16 @@
 import React, { Component } from 'react'
 
+import Dort from '../../assets/myworks/se-04.png';
+import Sekiz from '../../assets/myworks/se-08.png';
+import OnBir from '../../assets/myworks/se-11.png';
+import OnIki from '../../assets/myworks/se-12.png';
+import OnUc from '../../assets/myworks/se-13.png';
+import Uc from '../../assets/myworks/se-03.png';
+import Yedi from '../../assets/myworks/se-07.png';
+import Dokuz from '../../assets/myworks/se-09.png';
+import OnDort from '../../assets/myworks/se-14.png';
+
+
 export class AllPortfolio extends Component {
     render() {
         return (
@@ -37,100 +48,101 @@ export class AllPortfolio extends Component {
                             </div>
                             <div className="category-filter-list button-group filters-button-group" style={{ display: "none" }}>
                                 <div className="button is-checked" data-filter="*">All</div>
-                                <div className="button" data-filter=".interior">Interior</div>
-                                <div className="button" data-filter=".abstract">Abstract</div>
-                                <div className="button" data-filter=".industry">Industry</div>
+                                <div className="button" data-filter=".webdesigns">Web Designs</div>
+                                <div className="button" data-filter=".mobiledesigns">Mobile Designs</div>
+                                <div className="button" data-filter=".packaging">Packaging Desings</div>
+                                <div className="button" data-filter=".socialmedia">Social Media Posts</div>
                             </div>
                             <div className="grid" id="portfolio" style={{ position: "relative", height: "1400px" }}>
                                 <div className="grid-sizer"></div>
-                                <div className="grid-item element-item p_one_third interior" style={{ position: "absolute", left: "0%", top: "0px" }}>
+                                <div className="grid-item element-item p_one_third socialmedia" style={{ position: "absolute", left: "0%", top: "0px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_01.jpg" alt="" />
+                                        <img src={Dort} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Alternative BurgerKing Post</p>
+                                            <p className="portfolio-cat">Instagram Post</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_one_third abstract industry" style={{ position: "absolute", left: "33.3333", top: "0px" }}>
+                                <div className="grid-item element-item p_one_third webdesigns" style={{ position: "absolute", left: "33.3333", top: "0px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_02.jpg" alt="" />
+                                        <img src={Sekiz} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Web Design</p>
+                                            <p className="portfolio-cat">Basic and Minimal Web Site</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_one_third industry" style={{ position: "absolute", left: "66.6667%", top: "0px" }}>
+                                <div className="grid-item element-item p_one_third packaging" style={{ position: "absolute", left: "66.6667%", top: "0px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_03.jpg" alt="" />
+                                        <img src={OnBir} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Packaging Desing</p>
+                                            <p className="portfolio-cat">Coffee and Food Design</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_two_third abstract interior" style={{ position: "absolute", left: "33.3333%", top: "280px" }}>
+                                <div className="grid-item element-item p_two_third packaging" style={{ position: "absolute", left: "33.3333%", top: "280px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_04.jpg" alt="" />
+                                        <img src={OnIki} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div className="grid-item element-item p_one_third industry" style={{ position: "absolute", left: "0%", top: "560px" }}>
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_05.jpg" alt="" />
-                                        <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Packaging Desing</p>
+                                            <p className="portfolio-cat">Chocolate Desing</p>
                                         </div>
                                     </a>
                                 </div>
 
 
-                                <div className="grid-item element-item p_one_third abstract interior" style={{ position: "absolute", left: "0%", top: "840px" }}>
+                                <div className="grid-item element-item p_one_third packaging" style={{ position: "absolute", left: "0%", top: "560px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_06.jpg" alt="" />
+                                        <img src={OnUc} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Packaging Desing</p>
+                                            <p className="portfolio-cat">Food Desing</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_one_third industry" style={{ position: "absolute", left: "33.3333%", top: "840px" }}>
+
+                                <div className="grid-item element-item p_one_third webdesigns" style={{ position: "absolute", left: "0%", top: "840px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_07.jpg" alt="" />
+                                        <img src={Uc} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Web App</p>
+                                            <p className="portfolio-cat">Web Application Desing</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_one_third interior abstract" style={{ position: "absolute", left: "66.6667%", top: "840px" }}>
-                                    <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_08.jpg" alt="" />
+                                <div className="grid-item element-item p_one_third webdesigns" style={{ position: "absolute", left: "33.3333%", top: "840px" }}>
+                                    <a href="#">
+                                        <img src={Yedi} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Web App</p>
+                                            <p className="portfolio-cat">Web Application Desing</p>
                                         </div>
                                     </a>
                                 </div>
 
-                                <div className="grid-item element-item p_one_third interior industry" style={{ position: "absolute", left: "0%", top: "1120px" }}>
+                                <div className="grid-item element-item p_one_third mobiledesigns" style={{ position: "absolute", left: "66.6667%", top: "840px" }}>
                                     <a href="single-portfolio.html">
-                                        <img src="images/portfolio_img_09.jpg" alt="" />
+                                        <img src={Dokuz} alt="" />
                                         <div className="portfolio-text-holder">
-                                            <p className="portfolio-text">Smartphone</p>
-                                            <p className="portfolio-cat">Interior</p>
+                                            <p className="portfolio-text">Mobile App</p>
+                                            <p className="portfolio-cat">Mobile Application Desing</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid-item element-item p_one_third webdesigns packaging" style={{ position: "absolute", left: "0%", top: "1120px" }}>
+                                    <a href="single-portfolio.html">
+                                        <img src={OnDort} alt="" />
+                                        <div className="portfolio-text-holder">
+                                            <p className="portfolio-text">Portfolio</p>
+                                            <p className="portfolio-cat">Text</p>
                                         </div>
                                     </a>
                                 </div>

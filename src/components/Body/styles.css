@@ -14,3 +14,8 @@
     height: auto;
     margin-bottom: 51px;
 }
+
+.acyImage img {
+    padding: 5px;
+    height: -webkit-fill-available;
+}
